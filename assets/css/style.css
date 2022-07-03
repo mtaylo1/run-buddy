@@ -70,14 +70,22 @@ body {
 }
 
 .hero-form {
-    border: 3px solid #024e76;
+  border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
   color: #024e76;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: 120px;
+  right: 140px;
+}
+
+.hero-form button{
+  color: #fce138;
+  background-color:#024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
 }
 
 .hero-form p {
@@ -100,6 +108,11 @@ body {
   margin-bottom: 15px;
 
 }
+
+.hero-form label {
+  margin: 0 5px;
+}
+
 /*Hero Style End*/
 
 
