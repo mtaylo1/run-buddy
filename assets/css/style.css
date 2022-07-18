@@ -6,10 +6,9 @@
 }
 
 header nav {
- 
-  float: right;
+  flex-wrap: wrap;
   margin: 7px 0;
-  
+  justify-content: space-between;
 }
 
 header nav ul li {
@@ -29,7 +28,7 @@ header nav ul li a {
 header {
     
   padding: 20px 35px;
-    
+  display: flex;  
   background-color: #39a6b2;
 
   }
@@ -40,7 +39,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 
   }
   
