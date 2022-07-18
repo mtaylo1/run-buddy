@@ -218,7 +218,12 @@ section {
   max-width: 100%;
 }
 
-.step text {
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-text {
   flex: 12;
 }
 
